@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cat Game Leaderboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; margin: 20px; 
+        }
+        table {
+            width: 100%; border-collapse: collapse;
+        }
+        th, td { 
+            padding: 8px; text-align: left; border-bottom: 1px solid #ddd;
+        }
+        th { 
+            background-color: #f2f2f2; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Cat Game Leaderboard</h1>
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Username</th>
+            <th>Score</th>
+            <th>Play Time (minutes)</th>
+        </tr>
+        {% for player in players %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{{ player.username }}</td>
+            <td>{{ player.score }}</td>
+            <td>{{ player.play_time }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
