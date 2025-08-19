@@ -60,4 +60,4 @@ The pgzero application will receive information from the game server via API and
 
 # Image 
 
-![Image alt](https://github.com/bottlin-rnbclub/Cat_Game/tree/main/imageForGit/1.png)
+![Image alt](https://github.com/bottlin-rnbclub/Cat_Game/blob/main/imageForGit/1.png)
