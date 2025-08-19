@@ -4,14 +4,14 @@
 ### Dependencies
 
 - `Python 3.11`
-- `time
-  random
-  requests
-  flask
-  sqlite3
-  sqlalchemy
-  telebot
-  pgzero `
+- `time`
+- `random`
+-  `requests`
+-  `flask`
+-  `sqlite3`
+-  `sqlalchemy`
+-  `telebot`
+-  `pgzero `
 
 ### Setup
 
@@ -40,12 +40,12 @@ pip install -r requirements.txt
 3. Run it
 
 ```
-python snakes.py
+python server.py
+python bot.py
+python game.py
+
+@testTaskForKodland_bot use this bot on telegram
 ```
-
-
-
-
 
 # technical task:
 
